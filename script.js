@@ -10,13 +10,13 @@ document.addEventListener('DOMContentLoaded', () => {
         capy: {
             name: "Capibara",
             desc: "El amigo de todos. Tu compañero fiel en esta aventura de aprendizaje.",
-            img: "../assets/capybara_sprite_normal_full.png",
+            img: "img/capybara_sprite_normal_full.png",
             color: "rgba(144, 190, 171, 0.3)" // Greenish
         },
         sloth: {
             name: "Perezoso",
             desc: "Lento pero seguro. Se toma su tiempo para analizar cada detalle.",
-            img: "../assets/profile_picture_sloth_eyes_open.png",
+            img: "img/profile_picture_sloth_eyes_open.png",
             color: "rgba(141, 107, 86, 0.3)" // Brownish
         }
     };
@@ -73,3 +73,4 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(el);
     });
 });
+
